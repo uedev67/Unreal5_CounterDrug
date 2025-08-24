@@ -47,6 +47,17 @@ MonsterAIController.cpp : 전용 BT와 연결하기 위한 용도입니다. BT�
 ### 몬스터2 : 경비견
 평소에는 주변을 배회하다가 플레이어가 CCTV에 발각되거나, 시야에 플레이어가 들어오면 플레이어를 추격하여 파이어볼을 날립니다.
 
+BP_Monster2(cpp 기반)로 디테일 수정이 가능합니다 : 달리는 속도, 스턴 존, 애니메이션 등등
+
+Monster2.cpp : Projectile class 선언 , 스턴 관련된 함수들이 있습니다.
+
+Monster2AIController.cpp : 전용 BT와 연결하기 위한 용도입니다. 몬스터2(경비견)의 BT 로직은 다소 복잡합니다. 
+<img width="1639" height="866" alt="image" src="https://github.com/user-attachments/assets/9c4fa928-4d77-4b01-9d74-e8cb858c7920" />
+플레이어 위치가 보이는지로 먼저 판단합니다 -> 보이면 추적을 시작합니다. (보라색 노드는 왼쪽부터 BGM 처리 / 추적 / 발사 공격 / 대기) -> 만약 플레이어에게 스턴이 걸리면 4초 대기.
+
+플레이어가 보이지 않으면 주변을 배회합니다. Monster2ChaseEnd노드는 추적 전용 BGM에서 일반 BGM으로 변경하는 작업을 수행합니다. 
+
+
 
 
 
