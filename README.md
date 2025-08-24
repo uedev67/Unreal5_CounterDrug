@@ -12,6 +12,9 @@ UE5로 제작하는 1인개발 프로젝트입니다.
 
 임무는 마약 창고로 의심받는 장소에 잠입, 단서를 수집하며 그들의 작업을 방해하는 것입니다.
 쉽지는 않을 겁니다. 마약 창고의 시스템은 생각보다 견고하거든요!
+<img width="1982" height="1128" alt="image" src="https://github.com/user-attachments/assets/b82cc260-fb4e-4ebb-beb6-87cdec737018" />
+<img width="1769" height="1007" alt="image" src="https://github.com/user-attachments/assets/1c2d5e83-3eef-4464-89ac-84eb3c8fe551" />
+
 
 
 ## 챕터 2 : 충분한 단서, 그리고 철수
